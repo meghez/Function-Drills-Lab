@@ -35,8 +35,11 @@ const jsNinja = (I am a javascript ninja!) => {
   Call the function, passing in an argument.
 */
 
-//CODE HERE
+function printName(name) {
+console.log(name)
+}
 
+printName('name')
 
 ////////////////// PROBLEM 4 ////////////////////
 /*
@@ -49,8 +52,13 @@ const jsNinja = (I am a javascript ninja!) => {
   Make sure to call your function and pass in an argument.
 */
 
-//CODE HERE
+function greeting(name) {
+let name = 'Hello, (name)'
+console.log(name)
 
+}
+
+greeting('name')
 
 ////////////////// PROBLEM 5 ////////////////////
 
@@ -63,8 +71,12 @@ const jsNinja = (I am a javascript ninja!) => {
     Brownie points if you use a ternary statement (only spend significant time on this if you have wiggle room)
 */
 
-//CODE HERE
-
+const compareNums = (num) => {
+return num
+}
+const makeArr = [num1, num2] => {
+  return Arr
+} 
 
 ////////////////// PROBLEM 6 ////////////////////
 /*
@@ -74,7 +86,7 @@ const jsNinja = (I am a javascript ninja!) => {
   Create a variable outside the function called 'sum' and set it equal to add invoked (called), passing in 2 arguments.
 */
 
-//CODE HERE
+function add()
 
 
 ////////////////// PROBLEM 7 ////////////////////
