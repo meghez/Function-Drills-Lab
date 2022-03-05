@@ -11,8 +11,10 @@
   Call the function.
 */
 
-//CODE HERE
-
+function doSomething(Hello, World!) {
+console.log(Hello, World!)
+}
+doSomething('Hello, World!')
 
 ////////////////// PROBLEM 2 ////////////////////
 
@@ -20,7 +22,10 @@
     Write an arrow function called 'jsNinja' that returns the string: 'I am a JavaScript ninja!'
 */
 
-//CODE HERE
+const jsNinja = (I am a javascript ninja!) => {
+ return 'I am a javascript ninja!'
+
+}
 
 
 ////////////////// PROBLEM 3 ////////////////////
