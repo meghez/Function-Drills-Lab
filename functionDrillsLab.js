@@ -86,8 +86,18 @@ const makeArr = [num1, num2] => {
   Create a variable outside the function called 'sum' and set it equal to add invoked (called), passing in 2 arguments.
 */
 
-function add()
+function add(item1, item2) {
+console.log(item1 + item2)
 
+const bool = true
+const boolitem1 = Number(true)
+const boolitem2 = Number(true)
+console.log(boolitem1)
+console.log(boolitem2)
+
+}
+
+var sum()
 
 ////////////////// PROBLEM 7 ////////////////////
 
@@ -100,8 +110,8 @@ const exclaim = function(str) {
   return str.toUpperCase() + '!!!'
 }
 
-// arrow
-// declaration
+
+
 // expression
 
 
@@ -118,8 +128,8 @@ const exclaimTwo = str => {
 }
 
 // arrow
-// declaration
-// expression
+
+
 
 /*
   Rewrite exclaimTwo to be a single line.
@@ -128,7 +138,8 @@ const exclaimTwo = str => {
   Brownie points if you use a template string
 */
 
-
+const exclaimTwo = () => exclaimThree
+const exclaimTwo = exclaimThree => ({exclaimThree}) 
 
 ////////////////// PROBLEM 9 ////////////////////
 
@@ -141,9 +152,9 @@ function exclaimFour(str) {
   return str.toUpperCase() + '!!!'
 }
 
-// arrow
+
 // declaration
-// expression
+
 
 
 ////////////////// PROBLEM 10 ////////////////////
@@ -155,7 +166,13 @@ function exclaimFour(str) {
   Create a variable called 'nameGreeting' and set it equal to your function invoked (called) passing in an argument.
 */
 
-//CODE HERE
+function nameCheck(name) {
+console.log('name')
+
+const name = 'Steven' 
+console.log(name.includes('Steven'))
+return 'What is up Steven'
+}
 
 
 ////////////////// PROBLEM 11 ////////////////////
@@ -168,7 +185,7 @@ function exclaimFour(str) {
   Create a variable called 'colorRating' and set it equal to faveColorFinder invoked (called), passing in an argument.
 */
 
-//CODE HERE
+
 
 
 ////////////////// PROBLEM 12 ////////////////////
