@@ -198,10 +198,23 @@ var nameGreeting = nameCheck
 
 function faveColorFinder(color) {
   console.log('color')
+  let name = "color"; 
 
+  if (color === red){
+    return red is a great color 
+  if (color === green) 
+   return green is a solid favorite color
+   if (color === black) 
+    return so trendy 
+  } else {
+    console.log('you need to evaluate your favorite color choice')
+  }
+  var colorRating = faceColorFinder 
+  }
 
+  
+  
 
-}
 
 ////////////////// PROBLEM 12 ////////////////////
 let namesArr = ['Cameron', 'Riley', 'Eric', 'Brenna', 'Karl']
@@ -211,7 +224,13 @@ let namesArr = ['Cameron', 'Riley', 'Eric', 'Brenna', 'Karl']
   Call the function, passing in the `namesArr` array (above).
 */
 
-function printAllNames()
+function printAllNames(namesArr) {
+for (let i = namesArr; i++) {
+  console.log(i)
+}
+printAllNames('namesArr')
+}
+}
 
 
 ////////////////// PROBLEM 13 ////////////////////
@@ -222,8 +241,14 @@ function printAllNames()
   Outside the function, create a variable called `oddChecker` and set it equal to your function invoked, making sure to pass in an argument.
 */
 
-//CODE HERE
+function thatsOdd(number) {
+if ( number % 2 ) == 0
+return that's not odd 
+} else
+console.log(That is odd indeed!) )
 
+}
+var oddChecker = thatsOdd 
 
 ////////////////// PROBLEM 14 ////////////////////
 
