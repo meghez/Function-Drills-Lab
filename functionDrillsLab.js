@@ -260,8 +260,11 @@ var oddChecker = thatsOdd
     we would expect the function to return 'Sharknado is the best movie ever!'
 */
 
-//CODE HERE
-
+const bestMovie = ('MOVIEPARAM') ==>
+const MOVEIEPARAM = best movie 
+function bestMovie(MOVIEPARAM){
+return MOVIEPARAM is the best movie ever!
+}
 
 ////////////////// PROBLEM 15 ////////////////////
 let bigOrSmallArray = [1,101, 102, 2, 103, 4, 5, 6, 107]
@@ -274,7 +277,23 @@ let bigOrSmallArray = [1,101, 102, 2, 103, 4, 5, 6, 107]
   Return the answers array inside of the function to a variable called `arrayEvaluator`.
 */
 
-//CODE HERE
+function bigOrSmall(arr){
+var arr = answers
+console.log(arr)
+for (let i = arr; i > 100; i++) {
+  if ( i = > 100) {
+    console.log(big)
+    if ( i = < 100) {
+      console.log(small)
+
+  var answers = arrayEvaluator 
+    }
+  }
+}
+
+
+
+}
 
 
 ////////////////// PROBLEM 16 ////////////////////
@@ -285,7 +304,15 @@ let loser = 'Glimmer'
   The function should loop over the array of contestant names. If the loser string appears in the array, splice it out. Return the new contestants array.
 */
 
-//CODE HERE
+function theEliminator(contestants, loser){
+  const contestants = ['Katniss', 'Peeta', 'Fox-face', 'Glimmer', 'Cato', 'Rue', 'Thresh', 'Clove', 'Marvel']
+  const loser = 'Glimmer'
+   for (let i = contestants; i < Loser; const splitStr) {
+   console.log() 
+   }
+   Return theEliminator
+
+}
 
 
 ////////////////// PROBLEM 17 ////////////////////
@@ -295,7 +322,17 @@ let sampleString = "Hi, my name is Kylo."
   Invoke the function, passing in the sampleString (above).
 */
 
-//CODE HERE
+function sampleString(sampleString.includes)
+ let sampleString = 'lowercase letter'
+ sampleString.toUpperCase()
+ console.log(sampleString)
+
+ sampleString = sampleString.toUpperCase()
+ console.log(sampleString)
+
+ let upperString =sampleString.toUpperCase()
+ console.log(upperString)
+ 
 
 
 ////////////////// PROBLEM 18 ////////////////////
@@ -329,10 +366,21 @@ let sampleString = "Hi, my name is Kylo."
 ////////////////// PROBLEM 21 ////////////////////
 let sampleArray = [0,1,2,3,4,7,5,6,8,9]
 /*
-  Write a function that takes in an array of numbers as an argument. In the body of the function, write logic to determine if the array is in ascending order. The function should return true, if it is sorted in ascending order, false if it is not. Create a variable, `arrayIsAscending` and set it equal to your function invoked. Use the sample array to test this function.
+  Write a function that takes in an array of numbers as an argument. In the body of the function, write logic to determine if the array is in ascending order.
+  The function should return true, if it is sorted in ascending order, false if it is not. Create a variable, `arrayIsAscending` and set it equal to your function invoked. 
+  Use the sample array to test this function.
 */
 
-//CODE HERE
+function sampleArray[0,1,2,3,4,7,5,6,8,9] {
+if (sampleArray.sort(function(0,1){return 1-2});
+return true
+if (sampleArray.sort(function(9,8){return 9-8});
+return false 
+var arrayIsAscending = sampleArray
+
+}
+
+}
 
 
 ////////////////// PROBLEM 22 ////////////////////
@@ -357,13 +405,13 @@ function pond() {
 */
 
 //This array should contain the variable names (as strings) accessible in the global scope.
-let globalScope = []
+let globalScope = [duck, rubberDuck, sailorDuck, realDuck]
 
 //This array should contain the variable names (as strings) accessible in the bathroom function.
-let bathroomScope = []
+let bathroomScope = [rubberDuck, sailorDuck]
 
 //This array should contain the variable names (as strings) accessible in the bathtub function.
-let bathtubScope = []
+let bathtubScope = [sailorDuck]
 
 //This array should contain the variable names (as strings) accessible in the pond function.
-let pondScope = []
+let pondScope = [realDuck]
