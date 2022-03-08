@@ -169,12 +169,18 @@ function exclaimFour(str) {
 function nameCheck(name) {
 console.log('name')
 
-const name = 'Steven' 
-console.log(name.includes('Steven'))
-return 'What is up Steven'
-const name = 'Bryan'
-console.log(name.includes('Bryan'))
-return 'Hey Bryan'
+if (name === Steven) {
+console.log('What is up Steven')
+}
+
+if (name === Bryan) {
+console.log(Hey Bryan!)
+}
+
+if (name === (NAMEPARAM))  {
+console.log(Cool name, NAMEPARAM)
+
+var nameGreeting = nameCheck
 
 }
 
@@ -190,7 +196,12 @@ return 'Hey Bryan'
 */
 
 
+function faveColorFinder(color) {
+  console.log('color')
 
+
+
+}
 
 ////////////////// PROBLEM 12 ////////////////////
 let namesArr = ['Cameron', 'Riley', 'Eric', 'Brenna', 'Karl']
@@ -200,7 +211,7 @@ let namesArr = ['Cameron', 'Riley', 'Eric', 'Brenna', 'Karl']
   Call the function, passing in the `namesArr` array (above).
 */
 
-//CODE HERE
+function printAllNames()
 
 
 ////////////////// PROBLEM 13 ////////////////////
